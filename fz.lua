@@ -44,8 +44,8 @@ local function onButtonClick()
         isSpamming = true
         -- Start spamming the console
         while isSpamming do
-            print("Hello") -- Print "Hello" to the console
-            wait(0.00000000000001) -- Wait 1 millisecond before printing again
+            print("currently banging you, beamed.") -- Print "Hello" to the console
+            wait(0.001) -- Wait 1 millisecond before printing again
         end
 
         -- Delay to kick the player after 5 seconds
